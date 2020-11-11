@@ -5,6 +5,7 @@ class HelloWorld extends React.Component {
         return (
             <div>
                 <h1> Hello {this.props.name}</h1>
+                {this.props.test}
             </div>
         );
     }
