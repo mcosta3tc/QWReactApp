@@ -10,6 +10,11 @@ module.exports = {
   separator: ':',
   presets: [],
   theme: {
+      extend: {
+          backgroundColor:{
+              'black-t-50': 'rgba(0,0,0,.5)'
+          }
+      },
     screens: {
       sm: '640px',
       md: '768px',
